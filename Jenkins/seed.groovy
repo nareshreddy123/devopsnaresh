@@ -6,7 +6,7 @@ pipelineJob('frontend-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/frontend')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
@@ -29,7 +29,7 @@ pipelineJob('cart-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/cart')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
@@ -50,7 +50,7 @@ pipelineJob('catalogue-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/catalogue')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
@@ -71,7 +71,7 @@ pipelineJob('user-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/user')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
@@ -92,7 +92,7 @@ pipelineJob('payment-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/payment')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
@@ -113,7 +113,7 @@ pipelineJob('shipping-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/shipping')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
@@ -134,7 +134,7 @@ pipelineJob('CreateRelease') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/jenkins')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
@@ -155,7 +155,7 @@ pipelineJob('ReleasePipeline') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/jenkins')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
