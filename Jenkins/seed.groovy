@@ -6,7 +6,7 @@ pipelineJob('frontend-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://nareshreddyboreddy904@dev.azure.com/nareshreddyboreddy904/nareshdevops/_git/frontend.git')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
