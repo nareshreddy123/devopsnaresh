@@ -1,12 +1,11 @@
-//; Frontend CI
 
-pipelineJob('frontend-ci') {
+pipelineJob('cart-ci') {
     configure { flowdefinition ->
         flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://nareshreddyboreddy904@dev.azure.com/nareshreddyboreddy904/nareshdevops/_git/devopsnaresh')
+                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/cart')
                     }
                 }
                 'branches' {
