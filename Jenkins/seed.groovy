@@ -5,12 +5,12 @@ pipelineJob('cart-ci') {
             'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
                 'userRemoteConfigs' {
                     'hudson.plugins.git.UserRemoteConfig' {
-                        'url'('https://DevOps-Batches@dev.azure.com/DevOps-Batches/DevOps55/_git/cart')
+                        'url'('https://github.com/nareshreddy123/devopsnaresh.git')
                     }
                 }
                 'branches' {
                     'hudson.plugins.git.BranchSpec' {
-                        'name'('*/main')
+                        'name'('*/master')
                     }
                 }
             }
