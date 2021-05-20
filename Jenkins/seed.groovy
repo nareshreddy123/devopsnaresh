@@ -10,7 +10,7 @@ pipelineJob('frontend-ci') {
                 }
                 'branches' {
                     'hudson.plugins.git.BranchSpec' {
-                        'name'('*/master')
+                        'name'('**/master')
                     }
                 }
             }
