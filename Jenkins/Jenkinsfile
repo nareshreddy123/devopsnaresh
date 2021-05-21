@@ -2,17 +2,4 @@
 //logs.info 'Starting'
 //logs.warning 'Nothing to do!'
 
-pipeline {
-    agent none
-    stages {
-        stage ('Example') {
-            steps {
-
-                script {
-                    log.info 'Starting'
-                    log.warning 'Nothing to do!'
-                }
-            }
-        }
-    }
-}
+logs("catalogue", 100)
