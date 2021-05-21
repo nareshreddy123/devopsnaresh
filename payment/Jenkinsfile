@@ -1,13 +1,5 @@
-pipeline {
-    agent any
+@Library('devops') _
 
-    stages {
-        stage('download dependencies')
-        {
-            steps
-            {
-                sh 'npm install'
-            }
-        }
-    }
-}
+//sonar()
+nodejs("payment")
+
