@@ -1,11 +1,3 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Hello World1'
-            }
-        }
-    }
-}
+@Library('devops') _
+logs.info 'Starting'
+logs.warning 'Nothing to do!'
