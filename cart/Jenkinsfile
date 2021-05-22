@@ -1,7 +1,14 @@
-@Library('devops') _
 
+    pipeline {
+        agent any
 
-nodejs("cart")
-
-//sonar
-
+        stages {
+            stage('download dependencies')
+                    {
+                        steps
+                                {
+                                    sh 'npm install'
+                                }
+                    }
+        }
+    }
