@@ -10,11 +10,11 @@ pipelineJob('cart-ci') {
                 }
                 'branches' {
                     'hudson.plugins.git.BranchSpec' {
-                        'name'('*/msater')
+                        'name'('*/main')
                     }
                 }
             }
-            'scriptPath'('cart/Jenkinsfile')
+            'scriptPath'('Jenkinsfile')
             'lightweight'(true)
         }
     }
