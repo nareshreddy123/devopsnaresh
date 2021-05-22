@@ -1,13 +1,7 @@
-pipeline {
-    agent any
+@Library('roboshop') _
 
-    stages {
-        stage('download dependencies')
-        {
-            steps
-            {
-                sh 'npm install'
-            }
-        }
-    }
+//sonar()
+nodejs("cart")
+
+
 }
