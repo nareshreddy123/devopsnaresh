@@ -2,5 +2,5 @@
 
 
 nodejs("user")
-sonar()
+
 
