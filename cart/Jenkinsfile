@@ -1,5 +1,13 @@
-@Library('devops') _
+pipeline {
+    agent any
 
-
-
-nodejs("cart")
+    stages {
+        stage('download dependencies')
+        {
+            steps
+            {
+                sh 'npm install'
+            }
+        }
+    }
+}
