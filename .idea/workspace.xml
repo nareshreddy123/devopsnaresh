@@ -30,6 +30,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1rk9cUGwJikXCDGPnaYPOTrMQTs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -151,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622267048551</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Deleted Jenkins">
+      <created>1622283396436</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622283396436</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +183,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hey" />
     <MESSAGE value="hi" />
-    <option name="LAST_COMMIT_MESSAGE" value="hi" />
+    <MESSAGE value="Deleted Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted Jenkins" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619567172712">
@@ -188,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1621563218064" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1622267051688">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1622283406120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1622267051688" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1622283406120" />
     <state x="65" y="0" key="new project wizard" timestamp="1620258617604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
