@@ -13,7 +13,6 @@ import org.springframework.core.annotation.Order;
 import org.springframework.retry.annotation.EnableRetry;
 
 @SpringBootApplication
-@EnableRetry
 public class ShippingServiceApplication {
 
 	public static void main(String[] args) {
