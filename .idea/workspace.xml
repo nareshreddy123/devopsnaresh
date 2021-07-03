@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6af5cc99-91be-4b84-951f-38386734557a" name="Default Changelist" comment="" />
+    <list default="true" id="6af5cc99-91be-4b84-951f-38386734557a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,18 +45,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/user" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\devopsnaresh\user" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="nim.task.build.to.cache" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624965121307</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="App chnage">
+      <created>1625043998839</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1625043998840</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,13 +208,18 @@
     <MESSAGE value="hey" />
     <MESSAGE value="Deleted Jenkins" />
     <MESSAGE value="hi" />
-    <option name="LAST_COMMIT_MESSAGE" value="hi" />
+    <MESSAGE value="App chnage" />
+    <option name="LAST_COMMIT_MESSAGE" value="App chnage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619567172712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="443" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1619567172712" />
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog" timestamp="1625044264154">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="100" y="100" width="1166" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1625044264154" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1620258616524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -222,10 +232,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1621563218064" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1622283406120">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1625043883040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1622283406120" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625043883040" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1625044230473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625044230471" />
     <state x="65" y="0" key="new project wizard" timestamp="1620258617604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
